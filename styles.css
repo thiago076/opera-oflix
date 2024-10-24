@@ -1,0 +1,64 @@
+body {
+    color: whitesmoke;
+    background: darkred;
+    margin: 0; 
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-bottom: 80px;
+}
+
+header {
+    border-bottom: solid 2px red; 
+    padding: 1rem; 
+    font-size: 2rem; 
+    color: white;
+    background-color: black; 
+}
+
+.chamada {
+    background: black; 
+    padding: 2rem 1rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid red; 
+    flex-direction: column; 
+}
+
+.chamada-texto {
+    margin-right: 10%; 
+}
+
+h1 { 
+    font-size: 3rem; 
+}
+
+p {
+    font-size: 1.25rem; 
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 2rem; 
+    padding: 1rem 0; 
+}
+
+.categoria {
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    margin-top: 50px;
+}
+.categoria-videos img {
+    opacity: 0.3;
+    height: auto; 
+    max-width: 100%; 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    transform: scale(1.05); 
+}
+
+.categoria h2 {
+    color: rgb(255, 0, 0);
